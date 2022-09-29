@@ -1,0 +1,67 @@
+[
+
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "name": "Prayer Time",
+        "body":"lorem20",
+        "duration": 30,
+        "img": "/images/pray.jpg"
+     },
+    {
+        "id": "124e13b9-2d54-689ik8-a74d-a77b362d6ead",
+        "name": "Gym Time",
+        "body":"lorem20",
+        "duration": 60,
+        "img": "/images/gym.jpg"
+     },
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-698ngnib362d6ead",
+        "name": "Break Fast",
+        "body":"lorem20",
+        "duration": 20,
+        "img": "/images/break-fast.jpg"
+     },
+    {
+        "id": "124e13b9-2d54-4b2f-a74jngkhf-b362d6ead",
+        "name": "Programming",
+        "body":"lorem20",
+        "duration": 180,
+        "img": "/images/coding.jpg"
+     },
+    {
+        "id": "124e13b9-jggngg-ngjj2f-a74d-a77b362d6ead",
+        "name": "Social Media",
+        "body":"lorem20",
+        "duration": 40,
+        "img": "/images/social-media.png"
+     },
+    {
+        "id": "124e13b9-2d54-4b2f-ajkt-jhgura77b362d6ead",
+        "name": "Guitar Time",
+        "body":"lorem20",
+        "duration": 50,
+        "img": "/images/guitar.jpg"
+     },
+    {
+        "id": "124e13b9-2d54-4b2f-ajkt-jhgura77b362d6ead",
+        "name": "study",
+        "body":"lorem20",
+        "duration": 150,
+        "img": "/images/study.jpg"
+     },
+    {
+        "id": "124e13b9-2d54-4b2f-ajkt-jhgura77b362d6ead",
+        "name": "Family Time",
+        "body":"lorem20",
+        "duration": 60,
+        "img": "/images/family.jpg"
+     },
+    {
+        "id": "124e13b9-2d54-4b2f-ajkt-jhgura77b362d6ead",
+        "name": "sleep",
+        "body":"lorem20",
+        "duration": 300,
+        "img": "/images/sleep.png"
+     }
+
+]
