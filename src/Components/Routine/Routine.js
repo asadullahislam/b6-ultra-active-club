@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import Activities from '../Activities/Activities';
-import Break from '../Break/Break';
+import Cart from '../Cart/Cart';
 
 import './Routine.css'
 
 const Routine = () => {
 const[routines,setRoutines]=useState([]);
-// const [list, setList]=useState([]);
+const[cart,setCart]=useState([]);
 
 useEffect(()=>{
     fetch('routines.json')
@@ -15,7 +15,10 @@ useEffect(()=>{
 
 },[])
 
-const handleToClick =(routine)=>{
+const handleAddToCart=(routine)=>{
+
+    const newCart =[...cart,routine]
+    setCart(newCart);
 
 }
 
@@ -29,13 +32,13 @@ const handleToClick =(routine)=>{
                      routines.map(routine=><Activities
                          key ={routine.id}
                          routine ={routine}
-                        //  hanldleAddToList  ={hanldleAddToList }
+                         handleAddToCart={handleAddToCart}
                     
                      ></Activities>)
                      }
                 </div>
                 <div className='break-container'>
-                <Break></Break>
+                <Cart cart={cart}></Cart>
 
                 </div>
             </div>

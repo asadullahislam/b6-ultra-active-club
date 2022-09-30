@@ -1,7 +1,7 @@
 import React from 'react';
 import './Activities.css'
 
-const Activities = ({routine,hanldleAddToList }) => {
+const Activities = ({routine,handleAddToCart}) => {
     console.log(routine)
     const {name,img,body,duration}=routine;
 
@@ -12,12 +12,10 @@ const Activities = ({routine,hanldleAddToList }) => {
            <div className='activities-info'>
              <p className='activities-name'>{name}</p>
                 <p>{body}</p>
-                <p><small>Time duration:{duration}</small></p>
+                <p><small>Time duration: <span className='time-text'>{duration} </span> </small>   Minute</p>
            </div>
-            {/* <button onClick={()=> hanldleAddToList(routine)} className='btn-add'>
-                <p  className='btn-tetx'> Add To List</p>
-            </button> */}
-            <button className='btn-add'>
+          
+            <button onClick={()=>handleAddToCart(routine)} className='btn-add'>
                 <p  className='btn-tetx'> Add To List</p>
             </button>
         </div>

@@ -1,15 +1,17 @@
 // import React, { useState } from 'react';
 // import Routine from '../Routine/Routine';
 // import asad from '../../../public/images/asad.JPG'
-import './Break.css'
+import './Cart.css'
 
-const Break = () => {
+const Cart = ({cart}) => {
+   
 
-    // const [breakTime, setBreakT ime]=useState([]);
-    // let currentBreakTime
-    const handleBreakClick=()=>{
-        console.log('hi');
-    }
+ let total = 0;
+ for(const routine of cart){
+    total = total +routine.duration;
+ }
+
+const 
  
     return (
         <div className='cart' >
@@ -40,7 +42,7 @@ const Break = () => {
             <h3>Add a Break</h3>
 
             <div className='total-break'>
-                <p className='break-time'><span onClick={handleBreakClick} >10</span>m</p>
+                <p className='break-time'><span  >10</span>m</p>
                 <p className='break-time'><span>20</span>m</p>
                 <p className='break-time'><span>30</span>m</p>
                 <p className='break-time'><span>40</span>m</p>
@@ -48,7 +50,7 @@ const Break = () => {
             </div>
             <h3> Duration Details</h3>
             <div>
-                <h5 className='time-spent'>Time Spent:</h5>
+                <h5 className='time-spent'>Time Spent:{total}</h5>
             </div>
             <div>
                 <h5 className='time-spent'>Break Time:</h5>
@@ -60,4 +62,4 @@ const Break = () => {
     );
 };
 
-export default Break;
+export default Cart;
