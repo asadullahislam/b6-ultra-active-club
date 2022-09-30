@@ -1,67 +1,65 @@
 [
-
     {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
         "name": "Prayer Time",
-        "body":"Start the day by offering your sufferings to God.",
+        "body": "Start the day by offering your sufferings to God. star the day parying",
         "duration": 30,
         "img": "/images/pray.jpg"
-     },
+    },
     {
         "id": "124e13b9-2d54-689ik8-a74d-a77b362d6ead",
         "name": "Gym Time",
-        "body":"Whether you’re working at home, traveling, or social distancing, it isn’t always possible to get to the gym. But these tips can help you stay active and healthy whatever your circumstances.",
+        "body": "Whether you’re working at home, traveling, or social and most important.",
         "duration": 60,
         "img": "/images/gym2.jpg"
-     },
+    },
     {
         "id": "124e13b9-2d54-4b2f-a74d-698ngnib362d6ead",
         "name": "Break Fast",
-        "body":"Having high blood sugar doesn't have to mark the end of eating all of your favorite foods. You can still manage your blood sugar while enjoying delicious food ",
+        "body": "Having high blood sugar doesn't have to mark the end ",
         "duration": 20,
         "img": "/images/break-fast.jpg"
-     },
+    },
     {
         "id": "124e13b9-2d54-4b2f-a74jngkhf-b362d6ead",
         "name": "Programming",
-        "body":"The question of how important programming theory is to real-world software development is a divisive issue within the developer community.",
+        "body": "The question of how important programming theory is to real life.",
         "duration": 180,
         "img": "/images/coding.jpg"
-     },
+    },
     {
         "id": "124e13b9-jggngg-ngjj2f-a74d-a77b362d6ead",
         "name": "Social Media",
-        "body":"As of 2022, the average daily social media usage of internet users worldwide amounted to 147 minutes per day, up from 145 minutes in the previous year.",
+        "body": "As of 2022, the average daily social media usage of internet  social media",
         "duration": 40,
         "img": "/images/social-media.png"
-     },
+    },
     {
         "id": "124e13b9-2d2254-4b2f-ajkt-jhgura77b362d6ead",
         "name": "Guitar Time",
-        "body":"You’ve probably seen a cool guitar solo on YouTube or want to start picking up a hobby on the side, and thought you would venture into this musical world.",
+        "body": "You’ve probably seen a cool guitar solo on YouTube or want to start.",
         "duration": 50,
         "img": "/images/guitar.jpg"
-     },
+    },
     {
         "id": "124e13b9-2d54-4bdlt2f-ajkt-jhgura77b362d6ead",
         "name": "study",
-        "body":"StudyTime is an online platform dedicated to helping NZ kids make the most of high school. We're a combined team of tutors and students who deliver ...",
+        "body": "StudyTime is an online platform dedicated to helping NZ kids make the most important of the world ",
         "duration": 150,
         "img": "/images/study.jpg"
-     },
+    },
     {
         "id": "124e13b9-2d5ynbde-4b2f-ajkt-jhgura77b362d6ead",
         "name": "Family Time",
-        "body":"Family time offers many benefits, including building confidence, creating a stronger emotional bond between family members, ...",
+        "body": "Family time offers many benefits, including building confidence, creating a stronger  most time   spent",
         "duration": 60,
         "img": "/images/family.jpg"
-     },
+    },
     {
         "id": "124e13b9-2d54-4bhntef-ajkt-jhgura77b362d6ead",
         "name": "sleep",
-        "body":"We look at how many hours of sleep are recommended and how to use a sleep cycle calculator (such as the one here) to find the best time to wake up.",
+        "body": "We look at how many hours of sleep are recommended and how to use a sleep cycle calculator ",
         "duration": 300,
         "img": "/images/sleep.png"
-     }
-
+    }
 ]

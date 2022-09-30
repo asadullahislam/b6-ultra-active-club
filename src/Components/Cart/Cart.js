@@ -36,12 +36,12 @@ const Cart = ({ cart }) => {
     return (
         <div className='cart'>
             <div className='name-container'>
-                <img src="images/asad.jpg." alt="" />
-                <div>
-                    <p>Md.Asadullah</p>
-                     <p > <small >Dhaka,Bangladesh</small></p>
-                </div>
-            </div>
+    {/* <img src="images/asad.jpg." alt="" /> */ }
+    <div>
+        <p>Md.Asadullah</p>
+        <p > <small >Dhaka,Bangladesh</small></p>
+    </div>
+        </div >
             <div className='body-structure'>
                 <div>
                     <p><span className='weight-height-age'>75</span>kg <br />Weight</p>
@@ -50,11 +50,9 @@ const Cart = ({ cart }) => {
                 <div>
                     <p><span className='weight-height-age'>6.25</span>ft
                         <br />Height</p>
-
                 </div>
                 <div>
                     <p><span className='weight-height-age'>25</span>years <br />Age</p>
-
                 </div>
             </div>
 
@@ -77,7 +75,7 @@ const Cart = ({ cart }) => {
             <div>
                 <h5 className='time-spent'>Break Time:{breaktime}  Minute</h5>
             </div>
-            <button>
+            <button className='btn'>
                 <p className='btn-text'>Activity Completed</p>
             </button>
 
