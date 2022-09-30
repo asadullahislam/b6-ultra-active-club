@@ -1,11 +1,13 @@
 import React from 'react';
+
 import './Header.css'
 
 const Header = () => {
     return (
-        <div>
+        <nav>
             
-        </div>
+            <h1 className='head-text'>My Daily Routine</h1>
+        </nav>
     );
 };
 

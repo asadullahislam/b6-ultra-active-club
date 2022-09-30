@@ -12,7 +12,7 @@
         "name": "Gym Time",
         "body":"lorem20",
         "duration": 60,
-        "img": "/images/gym.jpg"
+        "img": "/images/gym2.jpg"
      },
     {
         "id": "124e13b9-2d54-4b2f-a74d-698ngnib362d6ead",
@@ -36,28 +36,28 @@
         "img": "/images/social-media.png"
      },
     {
-        "id": "124e13b9-2d54-4b2f-ajkt-jhgura77b362d6ead",
+        "id": "124e13b9-2d2254-4b2f-ajkt-jhgura77b362d6ead",
         "name": "Guitar Time",
         "body":"lorem20",
         "duration": 50,
         "img": "/images/guitar.jpg"
      },
     {
-        "id": "124e13b9-2d54-4b2f-ajkt-jhgura77b362d6ead",
+        "id": "124e13b9-2d54-4bdlt2f-ajkt-jhgura77b362d6ead",
         "name": "study",
         "body":"lorem20",
         "duration": 150,
         "img": "/images/study.jpg"
      },
     {
-        "id": "124e13b9-2d54-4b2f-ajkt-jhgura77b362d6ead",
+        "id": "124e13b9-2d5ynbde-4b2f-ajkt-jhgura77b362d6ead",
         "name": "Family Time",
         "body":"lorem20",
         "duration": 60,
         "img": "/images/family.jpg"
      },
     {
-        "id": "124e13b9-2d54-4b2f-ajkt-jhgura77b362d6ead",
+        "id": "124e13b9-2d54-4bhntef-ajkt-jhgura77b362d6ead",
         "name": "sleep",
         "body":"lorem20",
         "duration": 300,
