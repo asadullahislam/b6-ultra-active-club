@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 // import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import './Cart.css';
 
@@ -24,14 +26,19 @@ const Cart = ({ cart }) => {
         setBreaktime(breakTime)
         localStorage.setItem('btime', breakTime)
     }
-     
-    return (
+
+
+    const diffToast = () => {
+        toast("Congratulation!!! Activity Completed")
+}
+
+return (
         <div className='cart'>
             < div className='name-container' >
                 <img className='my-img' src="images/asad.jpg" alt="" />
                 < div >
                     <p>Md.Asadullah</p>
-                    <p ><small>Dhaka,Bangladesh</small></p>
+                    <p > <small>Dhaka,Bangladesh</small></p >
                 </div >
             </div >
             <div className='body-structure'>
@@ -67,10 +74,13 @@ const Cart = ({ cart }) => {
             <div>
                 <h5 className='time-spent'>Break Time:{breaktime} M</h5>
             </div>
-            <button className='btn'>
+            <button onClick={diffToast} className='btn'>
                 <p className='btn-text'>Activity Completed</p>
             </button>
+            <ToastContainer />
         </div>
+
+
     );
 };
 
