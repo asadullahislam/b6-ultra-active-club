@@ -1,13 +1,9 @@
 import React, { useState } from 'react';
-// import Routine from '../Routine/Routine';
-// import asad from  '../../../public/images/asad.JPG'
-
+// import React from 'react';
 
 import './Cart.css';
 
-import React from 'react';
-
-const cart = ({ cart }) => {
+const Cart = ({ cart }) => {
 
 
     let time = 0;
@@ -27,16 +23,15 @@ const cart = ({ cart }) => {
     const addToBreakTime = (breakTime) => {
         setBreaktime(breakTime)
         localStorage.setItem('btime', breakTime)
-
-
     }
+     
     return (
-        <div>
+        <div className='cart'>
             < div className='name-container' >
                 <img className='my-img' src="images/asad.jpg" alt="" />
                 < div >
                     <p>Md.Asadullah</p>
-                    <p > <small >Dhaka,Bangladesh</small></p>
+                    <p ><small>Dhaka,Bangladesh</small></p>
                 </div >
             </div >
             <div className='body-structure'>
@@ -55,7 +50,7 @@ const cart = ({ cart }) => {
 
             <h3>Add a Break</h3>
 
-            <div classNameclassName='total-break'>
+            <div className='total-break'>
                 <button onClick={() => addToBreakTime(10)} className='break-time'>10m</button>
                 <button onClick={() => addToBreakTime(20)} className='break-time'>20m</button>
                 <button onClick={() => addToBreakTime(30)} className='break-time'>30m</button>
@@ -67,28 +62,17 @@ const cart = ({ cart }) => {
             <h3> Duration Details</h3>
 
             <div>
-                <h5 className='time-spent'>Time Spent: {total} Minute</h5>
+                <h5 className='time-spent'>Time Spent: {total} M</h5>
             </div>
             <div>
-                <h5 className='time-spent'>Break Time:{breaktime}  Minute</h5>
+                <h5 className='time-spent'>Break Time:{breaktime} M</h5>
             </div>
             <button className='btn'>
                 <p className='btn-text'>Activity Completed</p>
             </button>
-
-
         </div>
     );
 };
 
 export default Cart;
-
-
-
-
-
- 
-
-
-
 

@@ -4,9 +4,9 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <nav>
-
-            <h1 className='head-text'>My Daily Routine</h1>
+        <nav className='nav-bar'>
+            <img src="images/morning.png" alt="" />
+            <h1 className='head-text'>Daily Routine</h1>
         </nav>
     );
 };

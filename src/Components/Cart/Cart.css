@@ -24,9 +24,9 @@
 
 .total-break {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: lightgrey;
+    justify-items: center;
+    justify-content: space-between;
 
 }
 
@@ -48,8 +48,10 @@
     background-color: lightgray;
 
     border-radius: 5px;
-    height: 1.8rem;
+    height: 40px;
     padding: 10px;
+    display: flex;
+    align-items: center;
 
 
 
@@ -69,7 +71,7 @@
 }
 
 .my-img {
-    width: 15%;
-    height: 15%;
-
+    width: 16%;
+    height: 16%;
+    border-radius: 50%;
 }

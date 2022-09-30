@@ -1,4 +1,14 @@
-.head-text{
+.head-text {
     color: blueviolet;
     padding-left: 20px;
+}
+
+.nav-bar img {
+    width: 5%;
+}
+
+.nav-bar {
+    display: flex;
+    padding: 20px;
+    margin: 0;
 }
