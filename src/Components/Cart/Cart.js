@@ -11,7 +11,12 @@ const Cart = ({cart}) => {
     total = total +routine.duration;
  }
 
-const 
+
+
+ 
+
+
+
  
     return (
         <div className='cart' >
