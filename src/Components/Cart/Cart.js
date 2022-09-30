@@ -11,8 +11,13 @@ import './Cart.css';
 
 
 const Cart = ({ cart }) => {
+    let time = 0;
+    const pTime = localStorage.getItem('btime');
+    if (pTime) {
+        time = pTime;
+    }
+    const [breaktime, setBreaktime] = useState(time);
 
-    const [breaktime, setBreaktime] = useState(0);
 
 
     let total = 0;
@@ -22,16 +27,19 @@ const Cart = ({ cart }) => {
 
     const addToBreakTime = (breakTime) => {
         setBreaktime(breakTime)
+        localStorage.setItem('btime', breakTime)
+
 
     }
+
 
     return (
         <div className='cart'>
             <div className='name-container'>
-                <img src="" alt="" />
+                <img src="images/asad.jpg." alt="" />
                 <div>
                     <p>Md.Asadullah</p>
-                    <p><small>Dhaka,Bangladesh</small></p>
+                     <p > <small >Dhaka,Bangladesh</small></p>
                 </div>
             </div>
             <div className='body-structure'>
@@ -53,8 +61,8 @@ const Cart = ({ cart }) => {
             <h3>Add a Break</h3>
 
             <div classNameclassName='total-break'>
-                <button onClick={()=>addToBreakTime(10)} className='break-time'>10m</button>
-                <button onClick={()=>addToBreakTime(20)} className='break-time'>20m</button>
+                <button onClick={() => addToBreakTime(10)} className='break-time'>10m</button>
+                <button onClick={() => addToBreakTime(20)} className='break-time'>20m</button>
                 <button onClick={() => addToBreakTime(30)} className='break-time'>30m</button>
                 <button onClick={() => addToBreakTime(40)} className='break-time'>40m</button>
                 <button onClick={() => addToBreakTime(50)} className='break-time'>50m</button>
@@ -72,8 +80,6 @@ const Cart = ({ cart }) => {
             <button>
                 <p className='btn-text'>Activity Completed</p>
             </button>
-
-
 
         </div >
     );

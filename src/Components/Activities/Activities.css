@@ -1,49 +1,51 @@
-.activities img{
-    height: 286px;
-    width: 286px;
-    border-radius: 8px;
-    margin: 7px;
- }
- .activities{
-    width: 300px;
-    height: 510px;
-    border: 1px solid #95A0A7;
-    border-radius :8px;
-    position: relative;
- }
+.activities img {
 
- .activities-name{
+    border-radius: 8px;
+    width: 100%;
+}
+
+.activities {
+
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+
+}
+
+.activities-name {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 21px;
     margin-top: 7px;
- }
- .activities-info{
+}
+
+.activities-info {
     margin: 0 14px;
 
- }
- .activities-info p{
+}
+
+.activities-info p {
     margin-bottom: 0;
     margin-top: 5px;
- }
- .btn-add{
+}
+
+.btn-add {
     width: 100%;
     background-color: #FFE0B3;
     border: none;
     border-radius: 0px 0px 8px 8px;
-    position: absolute;
-    bottom: 0;
-  
- }
- .btn-add:hover{
+
+
+}
+
+.btn-add:hover {
     background-color: orange;
 }
-.btn-text{
+
+.btn-text {
     margin-right: 5px;
- }
- /* .time-text{
+}
+
+/* .time-text{
     font-size:1.5rem;
  } */
-
-
