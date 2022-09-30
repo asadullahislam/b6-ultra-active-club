@@ -5,12 +5,11 @@ import React, { useState } from 'react';
 
 import './Cart.css';
 
+import React from 'react';
+
+const cart = ({ cart }) => {
 
 
-
-
-
-const Cart = ({ cart }) => {
     let time = 0;
     const pTime = localStorage.getItem('btime');
     if (pTime) {
@@ -31,17 +30,15 @@ const Cart = ({ cart }) => {
 
 
     }
-
-
     return (
-        <div className='cart'>
-            < div className = 'name-container' >
-               <img className='my-img' src="images/asad.jpg" alt="" /> 
-        < div >
-               <p>Md.Asadullah</p>
-                <p > <small >Dhaka,Bangladesh</small></p>
-              </div >
-           </div >
+        <div>
+            < div className='name-container' >
+                <img className='my-img' src="images/asad.jpg" alt="" />
+                < div >
+                    <p>Md.Asadullah</p>
+                    <p > <small >Dhaka,Bangladesh</small></p>
+                </div >
+            </div >
             <div className='body-structure'>
                 <div>
                     <p><span className='weight-height-age'>75</span>kg <br />Weight</p>
@@ -79,8 +76,19 @@ const Cart = ({ cart }) => {
                 <p className='btn-text'>Activity Completed</p>
             </button>
 
-        </div >
+
+        </div>
     );
 };
 
 export default Cart;
+
+
+
+
+
+ 
+
+
+
+
