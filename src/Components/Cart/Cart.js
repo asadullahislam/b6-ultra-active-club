@@ -35,13 +35,13 @@ const Cart = ({ cart }) => {
 
     return (
         <div className='cart'>
-            <div className='name-container'>
-    {/* <img src="images/asad.jpg." alt="" /> */ }
-    <div>
-        <p>Md.Asadullah</p>
-        <p > <small >Dhaka,Bangladesh</small></p>
-    </div>
-        </div >
+            < div className = 'name-container' >
+               <img className='my-img' src="images/asad.jpg" alt="" /> 
+        < div >
+               <p>Md.Asadullah</p>
+                <p > <small >Dhaka,Bangladesh</small></p>
+              </div >
+           </div >
             <div className='body-structure'>
                 <div>
                     <p><span className='weight-height-age'>75</span>kg <br />Weight</p>
